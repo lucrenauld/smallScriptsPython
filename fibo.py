@@ -12,7 +12,7 @@ def fibo(ma):
         a=b
         b=res
 		
-ma=raw_input("Enter max range for fibo : ")
+ma=raw_input("Enter max result for fibo : ")
 #set ma as integer
 ma=int(ma)
 #call fonction
