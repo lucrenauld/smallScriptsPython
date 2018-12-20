@@ -3,9 +3,9 @@ from bs4 import BeautifulSoup as bs
 import os,subprocess,urllib,base64,time
 #variables
 oldText = str(" ")
-text = str("lol")
+text = str("l")
 while True :
-    html = urllib.urlopen('https://twitter.com/S1mpleCC')
+    html = urllib.urlopen('<url twitter accout>')
     soup = bs(html,"html.parser")
     tweets = soup.findAll('p',{"class":'TweetTextSize TweetTextSize--normal js-tweet-text tweet-text'}
     #recupere seulement le premier tweet lors de la premiere iteration de la boucle
