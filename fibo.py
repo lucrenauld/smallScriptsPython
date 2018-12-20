@@ -1,12 +1,11 @@
-# -*- coding: cp1252 -*-
 def fibo(ma):
     res=0
     a=0
     b=1
     c=0
-    #Affichage premier itération de la suite
+    #shows first iteration
     print str(a) + " + " + str(b) + " = " +str( res)
-    #Tant que le résultat entré n'est pas atteint
+    #while the resutl isn't achieved
     while res < ma:
         res=a+b
         print str(a) + " + " + str(b) + " = " +str( res)
@@ -16,5 +15,5 @@ def fibo(ma):
 ma=raw_input("Enter max range for fibo : ")
 #set ma as integer
 ma=int(ma)
-#appelle fonction
+#call fonction
 fibo(ma)
