@@ -59,7 +59,7 @@ print "\n"
 #port min et port max
 while True:
         #host = raw_input("IP or localhost : ")
-        host = "10.101.200.28"
+        host = "<host to scan>"
         x = raw_input("Min : ")
         y = raw_input("Max : ")
 
